@@ -1,0 +1,13 @@
+" クリップボード
+set clipboard=unnamed
+
+" xキーで削除したときにレジスタに入れない
+nnoremap x "_x
+vnoremap x "_x
+
+" 検索
+" 大文字小文字を区別しない
+set ignorecase
+
+" 検索対象をハイライト
+set hlsearch

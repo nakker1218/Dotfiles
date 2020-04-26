@@ -1,0 +1,28 @@
+[user]
+  name = Shohei Nakayama
+  email = nakker1218@gmail.com
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  br = branch
+  co = commit
+  ch = checkout
+  s = status --short --branch
+  st = status
+  d = diff
+  di = diff
+  dc = diff --chached
+
+  save = commit -m
+  summary = status -u -s
+  graph = log --graph -10 --branches --remotes --tags  --format=format:'%Cgreen%h %Creset• %<(75,trunc)%s (%cN, %ar) %Cred%d' --date-order
+  history = log -10 --format=format:'%Cgreen%h %Creset• %s (%cN, %ar)'
+[push]
+  default = simple
+[core]
+  precomposeunicode = true
+  quotepath = false
+  editor = vim
